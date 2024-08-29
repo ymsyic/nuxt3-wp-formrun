@@ -1254,7 +1254,7 @@
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.2.tgz#97d26e00cd4a0423b4af620abecf3e6f442b7975"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
 
-"@unhead/dom@1.10.0", "@unhead/dom@^1.10.0":
+"@unhead/dom@1.10.0", "@unhead/dom@^1.10.0", "@unhead/dom@^1.7.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.10.0.tgz#85d0f157702d2e0a57b2adbe5fd768018f12acbe"
   integrity sha512-LdgtOlyMHOyuQNsUKM+1d8ViiiY4LxjCPJlgUU/5CwgqeRYf4LWFu8oRMQfSQVTusbPwwvr3MolM9iTUu2I4BQ==
@@ -1262,7 +1262,7 @@
     "@unhead/schema" "1.10.0"
     "@unhead/shared" "1.10.0"
 
-"@unhead/schema@1.10.0":
+"@unhead/schema@1.10.0", "@unhead/schema@^1.7.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.10.0.tgz#6d0f0dd4de21ab6e7c16d2471691131f63b7cb24"
   integrity sha512-hmgkFdLzm/VPLAXBF89Iry4Wz/6FpHMfMKCnAdihAt1Ublsi04RrA0hQuAiuGG2CZiKL4VCxtmV++UXj/kyakA==
@@ -1277,7 +1277,7 @@
   dependencies:
     "@unhead/schema" "1.10.0"
 
-"@unhead/ssr@^1.10.0":
+"@unhead/ssr@^1.10.0", "@unhead/ssr@^1.7.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.10.0.tgz#b3d976c5e9e0d603ace558b71a1536422ff5cf9a"
   integrity sha512-L2XqGUQ05+a/zBAJk4mseLpsDoHMsuEsZNWp5f7E/Kx8P1oBAAs6J/963nvVFdec41HuClNHtJZ5swz77dmb1Q==
@@ -1285,7 +1285,7 @@
     "@unhead/schema" "1.10.0"
     "@unhead/shared" "1.10.0"
 
-"@unhead/vue@^1.10.0":
+"@unhead/vue@^1.10.0", "@unhead/vue@^1.7.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.10.0.tgz#6ee1feb131a92bbc4d6657dc5e68dc38fbcfb4a9"
   integrity sha512-Cv9BViaOwCBdXy3bsTvJ10Rs808FSSq/ZfeBXzOjOxt08sbubf6Mr5opBdOlv/i1bzyFVIAqe5ABmrhC9mB80w==
@@ -1501,6 +1501,16 @@
   version "3.4.38"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.38.tgz#552a6770098bfd556fa3e2c686c9d3b4f4cd94c2"
   integrity sha512-q0xCiLkuWWQLzVrecPb0RMsNWyxICOjPrcrwxTUEHb1fsnvni4dcuyG7RT/Ie7VPTvnjzIaWzRMUBsrqNj/hhw==
+
+"@vueuse/head@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-2.0.0.tgz#a4570c0933368a436796c2f737d56e169a8f0864"
+  integrity sha512-ykdOxTGs95xjD4WXE4na/umxZea2Itl0GWBILas+O4oqS7eXIods38INvk3XkJKjqMdWPcpCyLX/DioLQxU1KA==
+  dependencies:
+    "@unhead/dom" "^1.7.0"
+    "@unhead/schema" "^1.7.0"
+    "@unhead/ssr" "^1.7.0"
+    "@unhead/vue" "^1.7.0"
 
 abbrev@1:
   version "1.1.1"
