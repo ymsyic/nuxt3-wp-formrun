@@ -70,7 +70,7 @@ import { useHead } from "@vueuse/head";
 useHead({
   script: [
     {
-      src: "https://sdk.form.run/js/v2/formrun.js",
+      src: "/js/formrun.js",
       type: "text/javascript",
     },
   ],
