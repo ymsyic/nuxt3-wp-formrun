@@ -64,7 +64,18 @@
   </div>
 </template>
 
-<script src="https://sdk.form.run/js/v2/formrun.js"></script>
+<script setup>
+import { useHead } from "@vueuse/head";
+
+useHead({
+  script: [
+    {
+      src: "https://sdk.form.run/js/v2/formrun.js",
+      type: "text/javascript",
+    },
+  ],
+});
+</script>
 
 <style scoped>
 ._formrun_gotcha {
