@@ -1,6 +1,6 @@
 <template>
   <div>
-    dev
+    dev commit
     <h1>ブログ記事一覧</h1>
     <ul>
       <li v-for="post in posts" :key="post.id">
